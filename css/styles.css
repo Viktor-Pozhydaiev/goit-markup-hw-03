@@ -122,6 +122,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .tells {
   display: flex;
@@ -135,7 +137,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-decoration-color);
-  margin-left: auto;
+
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -202,11 +204,12 @@ img {
 /* --- FEATURES ---*/
 .features .container {
   width: 1200px;
+  padding-top: 94px;
 }
 .features-list {
   display: flex;
   align-items: center;
-  padding-top: 94px;
+
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -280,8 +283,7 @@ img {
   margin-top: 30px;
 }
 .our-team-wrapper {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 55px;
   background: var(--secondary-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -362,7 +364,7 @@ img {
 }
 .main-list {
   display: flex;
-
+  margin-bottom: 50px;
   flex-direction: row;
   justify-content: center;
 }
@@ -393,7 +395,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-color);
   background: var(--bacground-secon-color);
-  margin-bottom: 50px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -420,10 +421,12 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  padding-bottom: 4px;
 }
 .projekt-wrapper {
   border: 1px solid rgba(238, 238, 238, 1);
   padding: 24px 20px;
+  border-top: none;
 }
 .info-item {
   font-weight: 400;
