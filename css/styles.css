@@ -319,7 +319,6 @@ img {
 /* --footer-- */
 .foot-stile {
   background-color: var(--footer-color);
-  margin-top: 94px;
 }
 .foot-stile .container {
   width: 1200px;
@@ -359,6 +358,7 @@ img {
 /* --- portfolio---- */
 .main {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .main .container {
   width: 1200px;
