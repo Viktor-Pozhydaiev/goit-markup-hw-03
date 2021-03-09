@@ -319,6 +319,7 @@ img {
 /* --footer-- */
 .foot-stile {
   background-color: var(--footer-color);
+  margin-top: 94px;
 }
 .foot-stile .container {
   width: 1200px;
