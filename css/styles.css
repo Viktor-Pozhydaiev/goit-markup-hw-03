@@ -85,7 +85,7 @@ img {
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .navigation {
   display: flex;
@@ -94,6 +94,7 @@ img {
 .navigation-list {
   display: flex;
   align-items: center;
+  margin-left: 94px;
 }
 
 .tell-list {
@@ -128,7 +129,7 @@ img {
 .tells {
   display: flex;
   align-items: center;
-  margin-left: 331px;
+  margin-left: auto;
 }
 .tell {
   font-family: var(--main-font);
@@ -146,7 +147,6 @@ img {
   color: var(--accent-color);
 }
 .logo {
-  margin-right: 94px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -174,7 +174,7 @@ img {
 .heroo-color .container {
   text-align: center;
   width: 1200px;
-  padding: 200px 272px;
+  padding: 200px 0;
 }
 .modal-btn {
   font-family: inherit;
@@ -235,6 +235,9 @@ img {
 }
 /* ---  end FEATURES ---*/
 /* WHAT_ARE_WE_DOING */
+.wedoing-list {
+  padding-top: 94px;
+}
 .wedoing-list .container {
   width: 1200px;
   padding-bottom: 94px;
@@ -251,7 +254,6 @@ img {
   margin-top: 30px;
 }
 .wedoing-list-title {
-  padding-top: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -355,7 +357,7 @@ img {
 /* --end footer-- */
 /* --- portfolio---- */
 .main {
-  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .main .container {
   width: 1200px;
@@ -371,9 +373,7 @@ img {
 .list-btn:not(:last-child) {
   margin-right: 8px;
 }
-.list-btn {
-  padding-top: 94px;
-}
+
 .projekt-list {
   display: flex;
   align-items: center;
@@ -421,7 +421,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 .projekt-wrapper {
   border: 1px solid rgba(238, 238, 238, 1);
